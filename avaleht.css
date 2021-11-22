@@ -1,37 +1,37 @@
 body {
-	background-color: #2d2424;
-	font-family: sans-serif;
-	font: Tahoma, Verdana, Helvetica;
-	overflow: hidden;
+  background-color: #2d2424;
+  font-family: sans-serif;
+  font: Tahoma, Verdana, Helvetica;
 }
 .navbar {
-	background-color: #b85c38;
-	overflow: auto;
-	padding: 0;
-	margin: 0;
+  background-color: #b85c38;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
 }
-h1, p {
-	color: #E0C097;
+h1,
+p {
+  color: #e0c097;
 }
 .navbar ul {
-	list-style: none;
-	margin-top: 49px;
-	float: right;
+  list-style: none;
+  margin-top: 49px;
+  float: right;
 }
 .navbar ul li {
-	float: left;
-	padding: 10px;
+  float: left;
+  padding: 10px;
 }
 .navbar ul li a {
-	display: block;
-	color: #E0C097;
-	text-decoration: none;
-	font-size: 20px;
+  display: block;
+  color: #e0c097;
+  text-decoration: none;
+  font-size: 20px;
 }
 .container {
-	display: block;
-	margin: auto;
-	width: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 #particle-canvas {
   width: 100%;
