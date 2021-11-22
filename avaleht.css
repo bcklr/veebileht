@@ -1,7 +1,13 @@
+html,
 body {
   background-color: #2d2424;
   font-family: sans-serif;
   font: Tahoma, Verdana, Helvetica;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
 }
 .navbar {
   background-color: #b85c38;
