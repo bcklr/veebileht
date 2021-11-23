@@ -2,9 +2,122 @@
 <html>
 <head>
 <title>Kontakt</title>
-<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="icon" herf="./favicon.ico">
+<style>
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 100vm;
+        height: 100vh;
+        margin: auto;
+
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+
+        display: grid;
+        /* grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 50px 1fr 1fr 100px; 
+        Ülemine tähendab täpselt sama mis alumine*/
+        grid-template: 50px 1fr 1fr 1fr 100px / repeat(4, 1fr);
+
+        gap: 10px;
+
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .container div {
+        padding: 10px;
+        border: 1px solid #00000079;
+    }
+
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .form {
+        grid-row-start: 2;
+        grid-row-end: span 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .info {
+        grid-row-start: 2;
+        grid-row-end: span 1;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .map {
+        grid-row-start: 3;
+        grid-row-end: span 2;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    /* Siin on märgitud grid algus ja lõpp, eraldatult kaldkriipsuga. */
+    .footer {
+        grid-column: 1 / span 4;
+        font-size: 11px;
+        text-align: center;
+        color: grey;
+        letter-spacing: 2px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+    p {
+  letter-spacing: 1px;
+  font-weight: normal;
+    font-size: 16px;
+}
+</style>
 </head>
 <body>
-<h1>Kontakt</h1>
+<div class="container">
+<div class="header">Kontakt</div>
+<div class="form">
+    <h3>Kirjuta Meile</h3>
+    <p>
+        Elemroot OÜ
+        <br>
+        <br>
+        Registrikood: 14358107
+    </p>
+</div>
+<div class="info">
+    <h3>Ettevõte</h3>
+    <p>
+        Elemroot OÜ
+        <br>
+        <br>
+        Registrikood: 14358107
+    </p>
+</div>
+<div class="map">
+    <h3>Asukoht</h3>
+    <p>
+        Elemroot OÜ
+        <br>
+        <br>
+        Registrikood: 14358107
+    </p>
+</div>
+<div class="footer">Elemroot © 2021</div>
+</div>
 </body>
 </html>
