@@ -1,24 +1,28 @@
-html,
 body {
   background-color: #2d2424;
   font-family: sans-serif;
   font: Tahoma, Verdana, Helvetica;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
+
 .navbar {
   background-color: #b85c38;
   overflow: auto;
   padding: 0;
   margin: 0;
 }
+
 h1,
+h2,
 h3,
+h4,
+h5,
+h6,
 p {
   color: #e0c097;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 .navbar ul {
   list-style: none;
   margin-top: 49px;
