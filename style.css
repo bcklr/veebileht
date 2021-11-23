@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: #2d2424;
+  font-family: sans-serif;
+  font: Tahoma, Verdana, Helvetica;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #b85c38;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h3,
+p {
+  color: #e0c097;
+}
+.navbar ul {
+  list-style: none;
+  margin-top: 49px;
+  float: right;
+}
+.navbar ul li {
+  float: left;
+  padding: 10px;
+}
+.navbar ul li a {
+  display: block;
+  color: #e0c097;
+  text-decoration: none;
+  font-size: 20px;
+}
