@@ -13,14 +13,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
-  min-height: 100vh;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .navbar {
