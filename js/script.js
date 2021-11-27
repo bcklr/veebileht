@@ -8,7 +8,7 @@
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
   particleColor: '#888',
-  background: '../failid/taust.jpg',
+  background: '../failid/background.jpg',
   interactive: true,
   speed: 'medium',
   density: 'high'
