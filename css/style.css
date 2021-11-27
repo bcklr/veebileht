@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Josefin+Sans&family=Roboto+Mono:ital@1&display=swap');
 
 * {
   box-sizing: border-box;
@@ -27,7 +27,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  color: #e0c097;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 p {
   color: #e0c097;
   margin-top: 0;
