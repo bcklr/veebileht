@@ -1,22 +1,4 @@
-.container {
-  width: 80%;
-  height: 100%;
-
-  display: grid;
-  grid-template: 70px 1fr 1fr 1fr 100px / repeat(4, 1fr);
-
-  gap: 10px;
-
-  padding: 10px;
-}
-
-.container div {
-  padding: 10px;
-}
-
 .header {
-  grid-column-start: 1;
-  grid-column-end: 5;
   font-size: 25px;
   text-align: center;
   display: flex;
@@ -26,54 +8,46 @@
   margin: auto;
 }
 
+.container {
+  width: 80%;
+  display: block;
+  padding: 75px 0;
+  margin: auto;
+}
+
+#col-1 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: #282828;
+  z-index: 1010101010
+}
+
+#col-2 {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background: #0080ff17;
+  z-index: 1010101010
+}
+
 .form {
-  grid-row-start: 2;
+  /* grid-row-start: 2;
   grid-row-end: span 3;
   grid-column-start: 1;
   grid-column-end: 3;
-  overflow: hidden;
+  overflow: hidden; */
   color: #e0c097;
   margin: auto;
 }
 
-.info {
-  grid-row-start: 2;
-  grid-row-end: span 1;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  margin: left;
-  /* border: 1px solid #5c3d2e; */
-  font-weight: normal;
-}
-
-.map {
-  grid-row-start: 3;
-  grid-row-end: span 2;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  position: sticky;
-  overflow: hidden;
-}
-
 .responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Siin on märgitud grid algus ja lõpp, eraldatult kaldkriipsuga. */
-.footer {
-  grid-column: 1 / span 4;
-  font-size: 11px;
-  text-align: center;
-  color: grey;
-  letter-spacing: 2px;
-  height: 50px;
-  line-height: 50px;
+  position: relative;
+  width: 80%;
+  height: 50%;
+  margin: auto;
 }
 
 input[type="text"],
@@ -100,4 +74,10 @@ input[type="button"] {
 
 input[type="button"]:hover {
   background-color: #45a049;
+}
+
+.info {
+  background: teal;
+  font-weight: normal;
+  margin: auto;
 }
