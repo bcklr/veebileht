@@ -1,100 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Meist</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
-<link rel="icon" herf="../failid/favicon.ico">
-<style>
-    body {
-        margin: 0;
-    }
-
-    .container {
-        width: 100vm;
-        height: 100vh;
-        margin: auto;
-
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-
-        display: grid;
-        /* grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 1fr 1fr 100px; 
-        Ülemine tähendab täpselt sama mis alumine*/
-        grid-template: 70px 1fr 1fr 1fr 100px / repeat(4, 1fr);
-
-        gap: 10px;
-
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .container div {
-        padding: 10px;
-        border: 1px solid #5C3D2E;
-    }
-
-    .header {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        text-align: center;
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  /*    justify-items: center; */
-    }
-
-    .form {
-        grid-row-start: 2;
-        grid-row-end: span 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    .info {
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        grid-column-start: 3;
-        grid-column-end: 5;
-    }
-
-    .map {
-        grid-row-start: 3;
-        grid-row-end: span 2;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        position: relative;
-        overflow: hidden;
-    }
-
-    /* Siin on märgitud grid algus ja lõpp, eraldatult kaldkriipsuga. */
-    .footer {
-        grid-column: 1 / span 4;
-        font-size: 11px;
-        text-align: center;
-        color: grey;
-        letter-spacing: 2px;
-        height: 50px;
-        line-height: 50px;
-    }
-
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-    p {
-  letter-spacing: 1px;
-  font-weight: normal;
-    font-size: 16px;
-    padding-left: 40px;
-}
-</style>
-<link rel="stylesheet" href="../css/style.css"></link>
+    <title>Meist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="icon" herf="../failid/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    </link>
+    <link rel="stylesheet" href="../css/meist.css">
+    </link>
 </head>
+
 <body>
     <nav class="navbar">
         <img src="../failid/logo.png" width="250" height="150"><a href="avaleht.html"></a></img>
@@ -105,19 +22,46 @@
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
-<div class="container">
-<div class="header"><h1>Meist</h1></div>
-<div class="form">
-    <h3>Kes me oleme</h3>
+    <div class="container">
+        <div class="header">
+            <h1>Meist</h1>
+        </div>
+        <div class="form">
+            <p>Elemroot on ettevõte, mis ehitab unikaalseid , mille eesmärgiks on aidata klientidel tõsta nende
+                väärtust.
+                <br /><br />
+                Me pakume oma teenuseid läbi API lahenduste, et kliendil oleks võimalikult lihtne enda süsteemi
+                rakendusi siduda. Teisalt pakume oma tooteid otse veebiteenusena, kus meie tegeleme haldamisega ja
+                klient haldab
+                teenust oma kasutajakonto alt.
+                <br /><br />
+                Meie peamiseks tooteks on lihtne ja kõike vajalikku sisaldav broneerimise rakendus. Broneerimisrakendust
+                kasutav
+                klient saab kõige parema kasutajakogemuse. Teie saate aga rakenduse teiselt poolt kõige parema
+                kasutajakogemuse.
+            </p>
+            <br /><br />
+            <p class="a" font-family='Comforter Brush'>
+                Firma tulevikuvaated ja suunad:
+                Digitaliseerimine, automatiseerimine, Infosüsteemide arendamine, targa kodu lahendused, koolitamine.
+                Märksõnad:
+                Korduduvtegevused automaatseks.
+                Mõtlemist ja kiireid otsuseid toetavad tarkvaralahendused.
+                Aega kokkuhoidvad süsteemid.
 
-</div>
-<div class="info">
-    <h3>Midagi midagi</h3>
-</div>
-<div class="map">
-    <h3>Midagi midagi</h3>
- </div>
-<div class="footer">Elemroot © 2021</div>
-</div>
+                Firmast:
+                Nimi: Elemroot
+                Tegevus: Veebirakenduste pakkumine, ehitamine ja haldamine.
+                Toode: Aja broneerimise rakendus.
+
+                Meie ettevõte Elemroot OÜ tähistas 24. oktooberil oma neljandat aastapäeva. Elemroot on oma tegevuste
+                poolest agiilne ja innovaatiline ettevõte. Tegevuseks on meil aidata klientidel arendada nende
+                infosüsteeme ja pakkuda tõelist väärtust, mis aitab neil oma tööd kõige ratsionaalsemal viisil paremaks
+                teha.
+            </p>
+        </div>
+        <div class="footer">Elemroot © 2021</div>
+    </div>
 </body>
+
 </html>

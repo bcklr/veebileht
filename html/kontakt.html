@@ -1,138 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Kontakt</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
-<link rel="icon" herf="../failid/favicon.ico">
-<style>
-
-
-    .container {
-        width: 100vm;
-        height: 100vh;
-
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-
-        display: grid;
-        /* grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 1fr 1fr 100px; 
-        Ülemine tähendab täpselt sama mis alumine*/
-        grid-template: 70px 1fr 1fr 1fr 100px / repeat(4, 1fr);
-
-        gap: 10px;
-
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .container div {
-        padding: 10px;
-        /* border: 1px solid #5C3D2E; */
-    }
-
-    .header {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        font-size: 25px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        margin: auto;
-    }
-
-    .form {
-        grid-row-start: 2;
-        grid-row-end: span 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        /* text-align: center; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* justify-items: center; */
-        /* position: relative; */
-        overflow: hidden;
-        /* display: block; */
-        color: #e0c097;
-        margin: auto;
-        
-    }
-
-    .info {
-        grid-row-start: 2;
-        grid-row-end: span 1;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        /* text-align: center; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* justify-items: center; */
-        margin: left;
-        border: 1px solid #5C3D2E;
-        font-weight: normal;
-    }
-
-    .map {
-        grid-row-start: 3;
-        grid-row-end: span 2;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        position: sticky;
-        overflow: hidden;
-    }
-
-    .responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-    /* Siin on märgitud grid algus ja lõpp, eraldatult kaldkriipsuga. */
-    .footer {
-        grid-column: 1 / span 4;
-        font-size: 11px;
-        text-align: center;
-        color: grey;
-        letter-spacing: 2px;
-        height: 50px;
-        line-height: 50px;
-    }
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-</style>
-<link rel="stylesheet" href="../css/style.css"></link>
+    <title>Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="icon" herf="../failid/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/kontakt.css">
 </head>
+
 <body>
     <nav class="navbar">
         <img src="../failid/logo.png" width="250" height="150"><a href="avaleht.html"></a></img>
@@ -143,43 +20,47 @@ input[type=submit]:hover {
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
-<div class="container">
-<div class="header"><h1>Kontakt</h1></div>
-<div class="form">
-      <form action="/action_page.php">
-        <label for="fname">Nimi</label>
-        <input type="text" id="fname" name="firstname" placeholder="Teie nimi...">
-    
-        <label for="email">E-mail</label>
-        <input type="text" id="email" name="email" placeholder="Teie e-mail...">
-    
-        <label for="subject">Kiri</label>
-        <textarea id="subject" name="subject" placeholder="Tekst.." style="height:200px"></textarea>
-    
-        <!-- <input type="submit" value="Saada"> -->
-        <input type="submit" onclick="alert('Hetkel siit kahjuks kirja saata ei saa!')" value="Saada">
-      </form>
-    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Kontakt</h1>
+        </div>
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="fname">Nimi</label>
+                <input type="text" id="fname" name="firstname" placeholder="Teie nimi...">
 
-<div class="info">
-    <br>
-    <p>
-        E-mail: elemroot@gmail.com
-        <br>
-        <br>
-        Tel: +372 58588600
-        <br>
-        <br>
-        Nimi: Elemroot OÜ
-        <br>
-        <br>
-        Registrikood: 14358107
-    </p>
-</div>
-<div class="map">
-    <iframe  class="responsive-iframe" src="https://kodu.ut.ee/~ken92/map" frameborder="0" scrolling="auto"></iframe>
-</div>
-<div class="footer">Elemroot © 2021</div>
-</div>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Teie e-mail...">
+
+                <label for="subject">Kiri</label>
+                <textarea id="subject" name="subject" placeholder="Tekst.." style="height:200px"></textarea>
+
+                <!-- <input type="submit" value="Saada"> -->
+                <input type="submit" onclick="alert('Hetkel siit kahjuks kirja saata ei saa!')" value="Saada">
+            </form>
+        </div>
+
+        <div class="info">
+            <br>
+            <p>
+                E-mail: elemroot@gmail.com
+                <br>
+                <br>
+                Tel: +372 58588600
+                <br>
+                <br>
+                Nimi: Elemroot OÜ
+                <br>
+                <br>
+                Registrikood: 14358107
+            </p>
+        </div>
+        <div class="map">
+            <iframe class="responsive-iframe" src="https://kodu.ut.ee/~ken92/map" frameborder="0"
+                scrolling="auto"></iframe>
+        </div>
+        <div class="footer">Elemroot © 2021</div>
+    </div>
 </body>
+
 </html>

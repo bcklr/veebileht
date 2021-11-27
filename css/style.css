@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto+Mono:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: #2d2424;
   font-family: sans-serif;
-  font: Tahoma, Verdana, Helvetica;
+  font-family: 'Roboto Mono', monospace;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   /* overflow: hidden; */
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .navbar {
@@ -29,15 +42,21 @@ p {
   margin-bottom: 0;
 }
 
+p.a {
+  font-family: 'Comforter Brush', cursive;
+}
+
 .navbar ul {
   list-style: none;
   margin-top: 49px;
   float: right;
 }
+
 .navbar ul li {
   float: left;
   padding: 10px;
 }
+
 .navbar ul li a {
   display: block;
   color: #e0c097;
