@@ -1,7 +1,3 @@
-h1,
-p {
-  color: #e0c097;
-}
 .container {
   display: block;
   margin: auto;
@@ -10,4 +6,9 @@ p {
 #particle-canvas {
   width: 100%;
   height: 100%;
+}
+.tekst_keskele {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 20px;
 }
