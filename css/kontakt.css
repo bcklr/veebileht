@@ -20,7 +20,7 @@
   width: 50%;
   float: left;
   height: 100%;
-  background-color: #282828;
+  /* background-color: #282828; */
   z-index: 1010101010
 }
 
@@ -29,24 +29,19 @@
   width: 50%;
   float: left;
   height: 100%;
-  background: #0080ff17;
+  /* background: #0080ff17; */
   z-index: 1010101010
 }
 
 .form {
-  /* grid-row-start: 2;
-  grid-row-end: span 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  overflow: hidden; */
+  font-size: 20px;
   color: #e0c097;
   margin: auto;
 }
 
-.responsive-iframe {
-  position: relative;
-  width: 80%;
-  height: 50%;
+.info {
+  background: teal;
+  font-weight: normal;
   margin: auto;
 }
 
@@ -76,8 +71,10 @@ input[type="button"]:hover {
   background-color: #45a049;
 }
 
-.info {
-  background: teal;
-  font-weight: normal;
+.map {
+  top: 20px;
+  position: relative;
+  width: 100%;
+  height: 50%;
   margin: auto;
 }
