@@ -7,7 +7,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
 }
 
 .navbar {
@@ -34,10 +33,12 @@ p {
   margin-top: 49px;
   float: right;
 }
+
 .navbar ul li {
   float: left;
   padding: 10px;
 }
+
 .navbar ul li a {
   display: block;
   color: #e0c097;
