@@ -1,26 +1,17 @@
 .container {
-  width: 100vm;
-  height: 100vh;
-
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+  width: 80%;
+  height: 100%;
 
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 50px 1fr 1fr 100px; 
-Ülemine tähendab täpselt sama mis alumine*/
   grid-template: 70px 1fr 1fr 1fr 100px / repeat(4, 1fr);
 
   gap: 10px;
 
   padding: 10px;
-  box-sizing: border-box;
 }
 
 .container div {
   padding: 10px;
-  /* border: 1px solid #5C3D2E; */
 }
 
 .header {
@@ -40,13 +31,7 @@ grid-template-rows: 50px 1fr 1fr 100px;
   grid-row-end: span 3;
   grid-column-start: 1;
   grid-column-end: 3;
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* justify-items: center; */
-  /* position: relative; */
   overflow: hidden;
-  /* display: block; */
   color: #e0c097;
   margin: auto;
 }
@@ -56,12 +41,8 @@ grid-template-rows: 50px 1fr 1fr 100px;
   grid-row-end: span 1;
   grid-column-start: 3;
   grid-column-end: 5;
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* justify-items: center; */
   margin: left;
-  border: 1px solid #5c3d2e;
+  /* border: 1px solid #5c3d2e; */
   font-weight: normal;
 }
 
@@ -108,7 +89,7 @@ textarea {
   resize: vertical;
 }
 
-input[type="submit"] {
+input[type="button"] {
   background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
@@ -117,6 +98,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
   background-color: #45a049;
 }
