@@ -3,15 +3,18 @@
   margin: auto;
   width: 100%;
 }
+
 #particle-canvas {
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
+
 .tekst_keskele {
-	text-align: center;
-	padding-bottom: 20px;
-	font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
+
 #pealkiri {
-	text-align: center;
+  text-align: center;
 }
