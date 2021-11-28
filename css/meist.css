@@ -1,32 +1,27 @@
 .container {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 70%;
     height: 100%;
-
-    padding: 10px;
+    padding-top: 100px;
 }
 
 .container div {
-    padding: 20px;
+    padding: 10px;
 }
 
 .header {
     text-align: center;
     font-size: 25px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .form {
     text-align: justify;
-    display: block;
     justify-content: center;
-    align-items: center;
-    font-weight: normal;
     font-size: 20px;
-    border: 1px solid #e9d2a1;
-    margin-top: 10px;
-    block-size: auto;
+    border: 2px solid #e9d2a1;
+}
+
+li {
+    color: #e0c097;
 }
