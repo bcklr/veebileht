@@ -3,18 +3,30 @@
   margin: auto;
   width: 70%;
   padding-top: 100px;
-}
-
-.tekst_keskele {
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 20px;
+    background: #2d242499;
+    border-radius: 300px;
+    
 }
 
 #pealkiri {
   text-align: center;
+    padding: 40px;
+  font-size: 60px;
+    font-family: SangbleuSans;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
+.tekst_keskele {
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+    font-family: SangBleuSans,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: .06em;
+    white-space: pre-line;
+}
 
 canvas {
   display: block;

@@ -28,10 +28,11 @@ body {
   padding-top: 13px;
 }
 
-li.nav {
+li.nav2 {
   list-style: none;
   display: inline-block;
   padding-right: 40px;
+    font-size: 20px;
 }
 
 li a {
@@ -55,6 +56,15 @@ li a:hover {
   padding: 5px;
 
 }
+
+@media screen and (max-width: 600px) {
+  li.nav2 {
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    
+    }}
 
 h1,
 h2,
