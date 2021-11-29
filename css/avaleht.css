@@ -5,6 +5,7 @@
   padding-top: 100px;
     background: #2d242499;
     border-radius: 300px;
+    position: relative
     
 }
 
@@ -38,7 +39,6 @@ canvas {
   height: 100%;
   /* background-color: #b61924; */
   background-image: url("../failid/background.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
