@@ -7,7 +7,7 @@ Veebileht on koostatud ettevõtte Elemroot OÜ jaoks.
 Antud veebileht on koostatud Tartu Ülikooli Informaatika bakalaureuse peaeriala õpilaste poolt õppeaine sissejuhatus erialasse raames.
 
 Kes on tiimiliikmed?
-Tiimiliikmed on Ken Böckler, Maarja Kovalevski ja Käti Eikel Tapp.
+Tiimiliikmed on Ken Böckler ja Maarja Kovalevski.
 
 ## Veebilehe eesmärk
 Veebilehe eesmärk on tutvustada ettevõttet Elemroot OÜ, nende teenuseid ning anda kliendile võimalus ettevõttega kontakt luua.
